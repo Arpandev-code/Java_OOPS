@@ -1,0 +1,2 @@
+Java StringBuffer vs StringBuilder:
+Only one Difference StringBuffer is thread safe but StringBuilder isn't.
