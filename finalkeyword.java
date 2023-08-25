@@ -1,5 +1,14 @@
+// final class Cal{
+//     public void show(){
+//         System.out.println("Made by Arpandev");
+//     }
+//     public void add(int a, int b){
+//         System.out.println(a+b);
+//     }
+
+// }
 class Cal{
-    public void show(){
+   final public void show(){
         System.out.println("Made by Arpandev");
     }
     public void add(int a, int b){
@@ -7,6 +16,18 @@ class Cal{
     }
 
 }
+// class Adv extends Cal{
+    /*
+     Final class can't be extended So No Inheritance 
+     */
+
+// }
+class Adv extends Cal{
+    // public void show(){ // override of final method can't possible 
+    //     System.out.println("Made by XYZ");
+    // }
+}
+
 
 
 
