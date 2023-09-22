@@ -1,0 +1,12 @@
+Collection Framework in Java
+ArrayList , List, Set, Hashset,  TreeSet
+Generics.
+Map and Hashmap.
+
+Generics to store a specific type of objects. Generics work on collections of different types can be customized, and are type-safe and easier to read.
+
+collection: It is word represent the Collection Object and Map object.
+
+Collection: The super Interface of all Collection such as ArrayList.
+
+Collections: is a utility class, which has specific methods to work with collections.
