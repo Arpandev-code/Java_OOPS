@@ -29,7 +29,7 @@ interface C{
 }
 
 /* suppose we created a object in heap memory it have some data &
-the process to store that the object's data in hard drive Serialization & destroy the object
+the process to store that the object's data in hard drive called Serialization & destroy the object
 now if we recrate the object & the process of restoring the data in object called deserialization.
 
 Every objects aren't allowed to do that , so we need marker interface
