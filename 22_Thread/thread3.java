@@ -24,7 +24,7 @@ from working on the same object, this process is called Thread-Safety.
 /*
  If both threads go to the method at the same time then it might be possible that they will be lost some of the values in between.
 - The above problem will be resolved by using the synchronized keyword.
-- By using the synchronized, java ensures that the method will be called by only one method at a time to handle instability in code.
+- By using the synchronized, java ensures that the method will be called by only one Thread at a time to handle instability in code.
 - So, if a thread is working with the synchronized method, then the other thread has to wait to work with that method until the first thread gets completed.
 - Synchronization in java is the capability to control the access of multiple threads to any shared resource. 
  */
@@ -88,7 +88,7 @@ join() is a method that allows the main method to wait for the other threads to 
 }
 /*
  Let me explain join() in more intersting way, So suppose you Two Thread Friends study in same school
- Suppose t1's class is over but t2 still in class, As t1 is good friend so he will wait untill t2 finsh his class 
+ Suppose t1's class is over but t2 still in class, As t1 is good friend so he will wait until t2 finsh his class 
  so there t2.join() method called while t1 is in waiting state.  while t1 waiting t1's girlfriend came
  asking t1 for a coffie then t1 starts to exicute some other task here a interruptedException(checked Exception) occours so we have handle it
  

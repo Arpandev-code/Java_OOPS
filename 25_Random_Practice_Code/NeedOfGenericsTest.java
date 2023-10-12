@@ -13,7 +13,7 @@ public class NeedOfGenericsTest {
         list.add("A");
         list.add("Ami");
 
-        int String= list.get(0);
+        int String= (int) list.get(0);
 
 
 
