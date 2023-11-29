@@ -22,7 +22,7 @@ class C extends A{
 
 public class dynamicmethoddispatch {
     public static void main(String[] args) {
-        /* implementation of runtime polymorphish
+        /* implementation of runtime polymorphism
         we can see show() method showing diffent behavior for differnt 
         object in runtime .
         
@@ -34,6 +34,8 @@ public class dynamicmethoddispatch {
         obj.show();
 
         obj=new C();
+        obj.show();
+
         obj.show();
     }
     
